@@ -1,0 +1,1 @@
+{'current_id_loc': 50000, 'stop_id_loc': 60000}

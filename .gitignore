@@ -1,0 +1,8 @@
+#Key
+key.txt
+
+#Others
+*.pyc
+
+#Data
+ownedgames.json
