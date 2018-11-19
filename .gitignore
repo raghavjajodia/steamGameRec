@@ -5,4 +5,6 @@ key.txt
 *.pyc
 
 #Data
-ownedgames.json
+data/
+
+.ipynb_checkpoints/
