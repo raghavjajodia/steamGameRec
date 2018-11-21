@@ -1,0 +1,10 @@
+#Key
+key.txt
+
+#Others
+*.pyc
+
+#Data
+data/
+
+.ipynb_checkpoints/
