@@ -1,5 +1,5 @@
 # steamGameRec
-Recommendation engine for Steam games based on data collected from Steam Web API.
+Recommendation engine for Steam games based on data collected from Steam Web API. Please see the attached report for complete details of the project
 
 ## Data
 Userid-playtime data is collected from the Steam Web API. Since Steam does not maintain explicit ratings for games, we derive our ratings based on playtime.
@@ -8,6 +8,9 @@ Userid-playtime data is collected from the Steam Web API. Since Steam does not m
 Two classes of models were developed:
 - Binary Ratings (Recommendations based on whether user bought the game or not)
 - Continuous Ratings (Recommendations based on continuous ratings on the [0,1] scale)
+
+## Continous Ratings Models
+Pleaes refer to the notebook ContinousRatingSurprise.ipynb for continous model. This has been implemented using the surprise library.
 
 ## Results
 ### Binary Models
