@@ -3,6 +3,7 @@ Recommendation engine for Steam games based on data collected from Steam Web API
 
 ## Data
 Userid-playtime data is collected from the Steam Web API. Since Steam does not maintain explicit ratings for games, we derive our ratings based on playtime.
+The data can be found at - https://drive.google.com/drive/folders/1ESRLG9heVA5K4e0wYchkdi8KpqKOmh_b?usp=sharing
 
 ## Models
 Two classes of models were developed:
