@@ -1,4 +1,4 @@
-# steamGameRec
+# Personalized Game Recommendation system for Steam
 Recommendation engine for Steam games based on data collected from Steam Web API. Please see the attached report for complete details of the project
 
 ## Data
@@ -9,6 +9,9 @@ The data can be found at - https://drive.google.com/drive/folders/1ESRLG9heVA5K4
 Two classes of models were developed:
 - Binary Ratings (Recommendations based on whether user bought the game or not)
 - Continuous Ratings (Recommendations based on continuous ratings on the [0,1] scale)
+
+## Binary Ratings Models
+Pleaes refer to the notebooks CollaborativeFiltering.ipynb and Implicit Matrix Factorization.ipynb for Binary Ratings based models.
 
 ## Continous Ratings Models
 Pleaes refer to the notebook ContinousRatingSurprise.ipynb for continous model. This has been implemented using the surprise library.
